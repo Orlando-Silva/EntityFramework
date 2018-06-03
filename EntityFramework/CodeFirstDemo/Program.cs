@@ -15,7 +15,7 @@ namespace CodeFirstDemo
         static void Main(string[] args)
         {
             // É necessário inserir o comando enable-migrations no Console do Gerenciador de Pacotes para gerar o ADO.NET:
-            // Toda vez que alguma mudança é feita, deve-se inserir o comando migration-add <nome que represente a alteração>.
+            // Toda vez que alguma mudança é feita, deve-se inserir o comando add-migration <nome que represente a alteração>.
             // É importante este segundo comando pois ele gera um migration, que serve para atualizar a base de dados com as alteraçõs que foram feitas.
             // Para rodar as Migration, deve-se inserir no console Update-Database, este comando gera tudo automáticamente no banco de dados.
             var contexto = new CodeFirstDemoContexto();
