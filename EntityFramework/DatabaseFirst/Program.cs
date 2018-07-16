@@ -10,6 +10,12 @@ namespace DatabaseFirst
     {
         static void Main(string[] args)
         {
+
+            PlutoDbContext plutoDbContext = new PlutoDbContext();
+
+            //Como chamar Stored Procedures usando DatabaseFirst:
+            plutoDbContext.DeleteCourse(5);
+
         }
     }
 }
