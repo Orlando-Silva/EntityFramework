@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace DatabaseFirst
 {
+    public enum Level : int
+    {
+        Begginer = 1,
+        Intermediate = 2,
+        Advanced = 3
+    }
+
     class Program
     {
         static void Main(string[] args)

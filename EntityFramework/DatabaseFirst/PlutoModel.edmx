@@ -324,6 +324,12 @@
           <Property Type="String" Name="LevelString" Nullable="false" MaxLength="50" />
           <Property Type="Byte" Name="Level" Nullable="false" />
         </ComplexType>
+        <EnumType Name="CourseLevel">
+          <Member Name="Begginer" Value="1" />
+          <Member Name="Intermediate" Value="2" />
+          <Member Name="Advanced" Value="3" />
+        </EnumType>
+        <EnumType Name="Level" a:ExternalTypeName="DatabaseFirst.Level" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
