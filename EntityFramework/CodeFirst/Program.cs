@@ -10,6 +10,7 @@ namespace CodeFirst
     {
         static void Main(string[] args)
         {
+            // A primeira migration de uma database já existente deve ser com o comando -ignorechanges, para que ela não recrie toda a base de dados
         }
     }
 }
