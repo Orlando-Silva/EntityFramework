@@ -49,12 +49,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\VidzyContext.cs" />
+    <Compile Include="Entities\Genre.cs" />
+    <Compile Include="Entities\Video.cs" />
+    <Compile Include="Migrations\201807182309508_InitialMigration.cs" />
+    <Compile Include="Migrations\201807182309508_InitialMigration.Designer.cs">
+      <DependentUpon>201807182309508_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807182312546_PopulatingGenresTable.cs" />
+    <Compile Include="Migrations\201807182312546_PopulatingGenresTable.Designer.cs">
+      <DependentUpon>201807182312546_PopulatingGenresTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807182309508_InitialMigration.resx">
+      <DependentUpon>201807182309508_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807182312546_PopulatingGenresTable.resx">
+      <DependentUpon>201807182312546_PopulatingGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
