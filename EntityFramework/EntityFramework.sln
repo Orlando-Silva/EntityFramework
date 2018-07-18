@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirst", "DatabaseFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{A53589B2-9052-4D70-8135-62F774D808DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidzyCodeFirst", "VidzyCodeFirst\VidzyCodeFirst.csproj", "{F1371239-B132-473E-B08F-5FC4A2E7AC95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A53589B2-9052-4D70-8135-62F774D808DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A53589B2-9052-4D70-8135-62F774D808DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A53589B2-9052-4D70-8135-62F774D808DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1371239-B132-473E-B08F-5FC4A2E7AC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1371239-B132-473E-B08F-5FC4A2E7AC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1371239-B132-473E-B08F-5FC4A2E7AC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1371239-B132-473E-B08F-5FC4A2E7AC95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
