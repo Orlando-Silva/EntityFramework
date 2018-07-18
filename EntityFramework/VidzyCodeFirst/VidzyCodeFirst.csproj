@@ -60,6 +60,10 @@
     <Compile Include="Migrations\201807182312546_PopulatingGenresTable.Designer.cs">
       <DependentUpon>201807182312546_PopulatingGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807182322099_OneToManyRelationBetweenGenreAndVideo.cs" />
+    <Compile Include="Migrations\201807182322099_OneToManyRelationBetweenGenreAndVideo.Designer.cs">
+      <DependentUpon>201807182322099_OneToManyRelationBetweenGenreAndVideo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807182312546_PopulatingGenresTable.resx">
       <DependentUpon>201807182312546_PopulatingGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807182322099_OneToManyRelationBetweenGenreAndVideo.resx">
+      <DependentUpon>201807182322099_OneToManyRelationBetweenGenreAndVideo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,6 +13,6 @@ namespace VidzyCodeFirst.Entities
 
         public DateTime ReleaseDate { get; set; }
 
-        public IList<Genre> Genres { get; set; }
+        public Genre Genre { get; set; }
     }
 }
