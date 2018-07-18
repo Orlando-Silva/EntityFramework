@@ -14,5 +14,15 @@ namespace VidzyCodeFirst.Entities
         public DateTime ReleaseDate { get; set; }
 
         public Genre Genre { get; set; }
+
+        public Classification Classiﬁcation { get; set; }
+
+    }
+
+    public enum Classification : int
+    {
+        Platinum = 1,
+        Gold = 2,
+        Silver = 3
     }
 }
