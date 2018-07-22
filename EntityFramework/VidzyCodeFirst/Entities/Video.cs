@@ -15,11 +15,13 @@ namespace VidzyCodeFirst.Entities
 
         public Genre Genre { get; set; }
 
+        public IList<Tag> Tags { get; set; }
+
         public Classification Classiﬁcation { get; set; }
 
     }
 
-    public enum Classification : int
+    public enum Classification : byte
     {
         Platinum = 1,
         Gold = 2,

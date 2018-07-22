@@ -49,8 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\FluentAPIConfigurations\GenreConfiguration.cs" />
+    <Compile Include="DAL\FluentAPIConfigurations\VideoConfiguration.cs" />
     <Compile Include="DAL\VidzyContext.cs" />
     <Compile Include="Entities\Genre.cs" />
+    <Compile Include="Entities\Tag.cs" />
     <Compile Include="Entities\Video.cs" />
     <Compile Include="Migrations\201807182309508_InitialMigration.cs" />
     <Compile Include="Migrations\201807182309508_InitialMigration.Designer.cs">
@@ -67,6 +70,14 @@
     <Compile Include="Migrations\201807182329304_AddClassificationColumnToVideos.cs" />
     <Compile Include="Migrations\201807182329304_AddClassificationColumnToVideos.Designer.cs">
       <DependentUpon>201807182329304_AddClassificationColumnToVideos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807222133447_FluentApiConfigurations.cs" />
+    <Compile Include="Migrations\201807222133447_FluentApiConfigurations.Designer.cs">
+      <DependentUpon>201807222133447_FluentApiConfigurations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807222144539_TableTagsCreated.cs" />
+    <Compile Include="Migrations\201807222144539_TableTagsCreated.Designer.cs">
+      <DependentUpon>201807222144539_TableTagsCreated.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -89,6 +100,13 @@
     <EmbeddedResource Include="Migrations\201807182329304_AddClassificationColumnToVideos.resx">
       <DependentUpon>201807182329304_AddClassificationColumnToVideos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807222133447_FluentApiConfigurations.resx">
+      <DependentUpon>201807222133447_FluentApiConfigurations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807222144539_TableTagsCreated.resx">
+      <DependentUpon>201807222144539_TableTagsCreated.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

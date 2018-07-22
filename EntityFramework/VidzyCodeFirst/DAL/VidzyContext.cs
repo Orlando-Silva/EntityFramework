@@ -1,5 +1,6 @@
 ﻿#region --Using--
 using System.Data.Entity;
+using VidzyCodeFirst.DAL.FluentAPIConfigurations;
 using VidzyCodeFirst.Entities;
 #endregion
 
@@ -20,6 +21,12 @@ namespace VidzyCodeFirst.DAL
 
         }
         #endregion
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new VideoConfiguration());
+            modelBuilder.Configurations.Add(new GenreConfiguration());
+        }
 
     }
 }
